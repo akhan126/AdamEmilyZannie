@@ -1,11 +1,4 @@
 import streamlit as st
-import altair as alt
-import pandas as pd
-def show_page():
-    st.title("2. Pesticide Use vs. Crop Yield Analysis")
-    st.info("Interactive visualization with country selection highlighting")
-    
-    import streamlit as st
 import pandas as pd
 import altair as alt
 
