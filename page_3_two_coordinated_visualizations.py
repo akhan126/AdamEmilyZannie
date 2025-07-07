@@ -3,7 +3,7 @@ import pandas as pd
 import altair as alt
 
 def show_page():
-    st.title("2. Pesticide Use vs. Crop Yield Analysis")
+    st.title("3. Pesticide Use vs. Crop Yield Analysis")
     st.info("Interactive visualization with country selection highlighting")
     
     # Try loading local file first
