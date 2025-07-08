@@ -10,6 +10,8 @@ import page_1_ui_interaction # <--- THIS IS THE CRUCIAL LINE TO CHECK
 # Also ensure your other page imports are correct if you've renamed them:
 import page_2_within_visualization_interaction
 import page_3_two_coordinated_visualizations
+import page_4_temp_gdp
+
 
 
 # ✅ Set page config FIRST (this must be at the top before anything renders)
@@ -40,6 +42,7 @@ pages = {
     "1. UI Interaction": page_1_ui_interaction.show_page, # <--- THIS LINE ALSO NEEDS TO BE CORRECT
     "2. Within Visualization Interaction": page_2_within_visualization_interaction.show_page,
     "3. Two Coordinated Visualizations": page_3_two_coordinated_visualizations.show_page,
+    "4. Average Temp VS GDP": page_4_temp_gdp.show_page,
 }
 
 # Create radio buttons in the sidebar
